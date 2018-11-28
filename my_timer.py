@@ -1,9 +1,11 @@
+"""It's just a timer py..."""
 
 import threading
 
 import time
 
 my_lock = threading.Lock()
+
 
 def show_timer(name, delay, repeat):
     print("Timer " + name + " started...")
